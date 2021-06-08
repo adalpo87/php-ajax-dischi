@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1E2D3B;
+    color: white;
+}
+
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #2E3A46;
+}
+
+header div img{
+    height: 80px;
+}
+
+
+.disc{
+    flex-basis: calc(100% / 5);
+    min-height: 300px;
+    margin: auto;
+}
+
+.disc div{
+    background-color: #2E3A46;
+    height: 100%;
+}
+
+.disc div img{
+    width: 100%;
+}
+
+.disc div h6{
+    color: #7D7977;
+}
